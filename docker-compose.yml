@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  api:
+    image: your_api_image_name
+    ports:
+      - '5000:5000'
+    environment:
+      - SOME_ENV_VAR=value
+    networks:
+      - backend_network
+
+networks:
+  backend_network:
+    driver: bridge
