@@ -1,0 +1,24 @@
+{
+  "name": "q-synapse-mobile",
+  "version": "1.0.0",
+  "description": "Q-Synapse mobile app (iOS, Android, Web)",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build:ios": "eas build --platform ios",
+    "build:android": "eas build --platform android"
+  },
+  "dependencies": {
+    "expo": "^latest",
+    "react": "^latest",
+    "react-native": "^latest",
+    "react-navigation": "^latest"
+  },
+  "devDependencies": {
+    "@babel/core": "^latest",
+    "@types/react": "^latest"
+  }
+}
